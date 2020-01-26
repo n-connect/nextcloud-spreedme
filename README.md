@@ -5,6 +5,7 @@
 - security.php: from NC16 certain NC function removed, one of them affects the TemporaryPassword generation. Oneline dirty fix using random_bytes() PHP function available from PHP 7.0. NC16 requires PHP7.1, everybody wins.
 
 With the above modifications, Spreed.ME app is functional on NC16, with the shipped GO server application runs in proxy (NGINX vs. Apache) and with a standalone (or on another public IPv4 on a big server HW) STUN/TURN server. NO 4 participants limit compared to Nextcloud Talk (which never really worked for me from the 3rd person on the very same NC instance, where Spreed.ME works well).
+#
 
 # Spreed.ME Nextcloud app
 

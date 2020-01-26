@@ -64,7 +64,7 @@ class Security {
 	}
 
 	public static function getRandomString($length, $charset = '0123456789abcdef') {
-		return \OC::$server->getSecureRandom()->getMediumStrengthGenerator()->generate($length, $charset);
+		return bin2hex(random_bytes($length));
 	}
 
 	public static function regenerateSharedSecret() {

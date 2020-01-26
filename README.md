@@ -2,7 +2,7 @@
 
 - info.xml: changing version numbers works from NC14 till NC15. Just some areas get a bit "sorted" in the UI
 - webrtc.css: CSS modification to show the main area in the Spreed.ME app, from NC15 it was nicer, from NC16 it is required 
-- security.php: from NC16 certaion NC function removed, one of them affects the TemporaryPassword generation. Oneline dirty fix using random_bytes() PHP function available from PHP 7.0. NC16 requires PHP7.1, everybody wins.
+- security.php: from NC16 certain NC function removed, one of them affects the TemporaryPassword generation. Oneline dirty fix using random_bytes() PHP function available from PHP 7.0. NC16 requires PHP7.1, everybody wins.
 
 With the above modifications, Spreed.ME app is functional on NC16, with the shipped GO server application runs in proxy (NGINX vs. Apache) and with a standalone (or on another public IPv4 on a big server HW) STUN/TURN server. NO 4 participants limit compared to Nextcloud Talk (which never really worked for me from the 3rd person on the very same NC instance, where Spreed.ME works well).
 

@@ -129,4 +129,4 @@ you should enable / check the `SPREED_WEBRTC_IS_SHARED_INSTANCE` flag in this ap
 
 If you're having trouble getting this app and Spreed WebRTC server to run, simply open **/index.php/apps/spreedme/admin/debug** of your Nextcloud host in your browser. It might contain information which can help to debug the issue.
 
-To get help and issues please use the issue tracker at [github.com/strukturag/nextcloud-spreedme/issues](https://github.com/strukturag/nextcloud-spreedme/issues).
+To get help and issues please use the issue tracker at [github.com/n-connect/nextcloud-spreedme/issues](https://github.com/n-connect/nextcloud-spreedme/issues).
